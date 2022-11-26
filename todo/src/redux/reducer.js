@@ -1,7 +1,7 @@
 import { ADD_TODO, DELETE_TODO, TOGGLE_TODO, CLEAR_TODO_LIST } from "./types";
 import { INITIAL_STATE } from "./store";
 
-const odoReducer = (state = INITIAL_STATE, action) =>{
+const todoReducer = (state = INITIAL_STATE, action) =>{
     switch(action.type) {
         case ADD_TODO:
             return {
@@ -31,3 +31,4 @@ const odoReducer = (state = INITIAL_STATE, action) =>{
             return state;
     }
 }
+export default todoReducer;
