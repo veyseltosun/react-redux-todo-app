@@ -28,6 +28,8 @@ function TodoList() {
           backgroundColor: "#ac0d0d",
           color: "white",
           borderRadius: "10px",
+          cursor:"pointer" ,
+          
         }}
         >Clear</button>
     </div>
