@@ -18,9 +18,10 @@ export const toggleTodo = (payload) =>{
         payload: payload,
     }
 }
-export const clearTodoList = () =>{
+export const clearTodoList = (payload) =>{
     return{
         type:CLEAR_TODO_LIST,
+        payload: payload,
        
     }
 }

@@ -38,6 +38,7 @@ function TodoInput() {
               fontSize: "1rem",
               color: "white",
               outline: "none",
+              cursor:"pointer" ,
             }} onClick={handleSubmit} >
               Add
             </button>

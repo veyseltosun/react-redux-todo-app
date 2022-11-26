@@ -19,7 +19,7 @@ function TodoList() {
           <TodoITem key={todo.id} {...todo}/>
         ))}
       </ul>
-      <button onClick={handleClearList}
+      <button className='button' onClick={handleClearList}
         style={{
           height: "50px",
           width: "100px",
