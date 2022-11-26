@@ -21,13 +21,13 @@ function TodoITem({completed, text, id}) {
    
   return (
     <div style={styled} className="todoList">
-        <h2
+        <h4
           style={{
             width:"75%",
             display:"flex",
             justifyContent:"center",
             alignItem:"center",
-          }}>{text}</h2>
+          }}>{text}</h4>
 
         <div >
             <span>
